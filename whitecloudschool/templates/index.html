@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Школа Біла Хмара</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     {% load static %}
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+
+
+     <!-- MAIN CSS -->
+        <link rel="stylesheet" href="{% static 'css/tooplate-gymso-style.css' %}">
+
+
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="../static/images/photo_2024-01-22_23-06-55-removebg-preview.png">
+                Біла Хмара
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link smoothScroll">Головна</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">Про нас</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#class" class="nav-link smoothScroll">Курси</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#schedule" class="nav-link smoothScroll">Переваги</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Записатися</a>
+                    </li>
+                </ul>
+
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://www.facebook.com/profile.php?id=61553907014737" class="fa fa-facebook" target="_blank"></a></li>
+                    <li><a href="https://t.me/white_cloud_sumy" class="fa fa-telegram" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/white_cloud_sumy/" class="fa fa-instagram" target="_blank"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+     <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+
+                                    <h6 data-aos="fade-up" data-aos-delay="300">Найцікавіший заклад освіти в м.Суми</h6>
+
+                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Біла Хмара - освіта майбутнього</h1>
+
+                                    <a href="#feature" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">почнімо ?</a>
+
+                                    <a href="#about" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Детальніше</a>
+                                   
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+     <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+
+                <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
+                    <h2 class="mb-3 text-white" data-aos="fade-up">ПОЧНІТЬ З БЕЗКОШТОВНОГО ПРОБНОГО УРОКУ</h2>
+
+                    <h6 class="mb-4 text-white" data-aos="fade-up">Залиште заявку на безкоштовний пробний урок, чи щоб ми вас проконсультували</h6>
+
+                    <p data-aos="fade-up" data-aos-delay="200">Залиште свої контактні дані, і ми зв'яжемося з вами
+                        <a rel="nofollow"  target="_parent"></a></p>
+
+                    <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#membershipForm">Добре</a>
+                </div>
+
+                <div class="mr-lg-auto mt-3 col-lg-4 col-md-6 col-12">
+                     <div class="about-working-hours">
+                          <div>
+
+                                <h2 class="mb-4 text-white" data-aos="fade-up" data-aos-delay="500">Робочі години</h2>
+
+                               <strong class="d-block" data-aos="fade-up" data-aos-delay="600">по яким можна виставити заняття</strong>
+
+                               <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Понеділок - П'ятниця</strong>
+
+                                <p data-aos="fade-up" data-aos-delay="800"> 15:00 - 21:00</p>
+
+                                <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Субота - Неділя</strong>
+
+                                <p data-aos="fade-up" data-aos-delay="800">10:00 - 20:00</p>
+                               </div>
+                          </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ABOUT -->
+     <section class="about section" id="about">
+               <div class="container">
+                    <div class="row">
+
+                            <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
+                                <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Привіт Ми офлайн школа "Біла Хмара"</h2>
+
+                                <p data-aos="fade-up" data-aos-delay="400">Ми розуміємо наскільки важливі люди, які несуть знання, тому в нашій команді неперевершені викладачі, яких ми здобули в битві з іншими школами 😄😐</p>
+
+                                <p data-aos="fade-up" data-aos-delay="500"> Нас не багато, але ми дуже особливі <a rel="nofollow" target="_parent"> <br> Дар'я </a> Щира та усміхнена, улюблениця дітей <a rel="nofollow" target="_parent" ><br>Олег</a> Творчий з почуттям гумору, що дуже подобається дітям і підліткам </p>
+
+                            </div>
+
+                            <div class="ml-lg-auto col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+                                <div class="team-thumb">
+                                    <img src="../static/images/team/NIK_2760.jpg" class="img-fluid" alt="Trainer">
+
+                                    <div class="team-info d-flex flex-column">
+
+                                        <h3>Олег</h3>
+                                        <span>Python teacher<br>Soft-skills teacher<br> Roblox teacher</span>
+
+                                        <ul class="social-icon mt-3">
+                                            <li><a href="https://www.instagram.com/nosachenkooleh/" class="fa fa-instagram" target="_blank"></a></li>
+                                            <li><a href="https://t.me/MontyPython" class="fa fa-telegram" target="_blank"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mr-lg-auto mt-5 mt-lg-0 mt-md-0 col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="800">
+                                <div class="team-thumb">
+                                    <img src="../static/images/team/NIK_2846.jpg" class="img-fluid" alt="Trainer">
+
+                                    <div class="team-info d-flex flex-column">
+
+                                        <h3>Дар'я</h3>
+                                        <span>Blender teacher<br> Soft-skills teacher <br> Roblox teacher<br> Special course 7+ teacher</span>
+
+                                        <ul class="social-icon mt-3">
+                                            <li><a href="https://www.instagram.com/_d_ds_/" class="fa fa-instagram" target="_blank"></a></li>
+                                            <li><a href="https://t.me/darianosachenko" class="fa fa-telegram" target="_blank"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+     <!-- CLASS -->
+     <section class="class section" id="class">
+               <div class="container">
+                    <div class="row">
+
+                            <div class="col-lg-12 col-12 text-center mb-5">
+                                <h6 data-aos="fade-up">Отримайте найкращі враження від навчання</h6>
+
+                                <h2 data-aos="fade-up" data-aos-delay="200">Курси</h2>
+                             </div>
+
+                            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="class-thumb">
+                                    <img src="../static/images/class/roblox-requisitos_862x485.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Roblox</h3>
+
+                                        <span><strong>Викладач</strong> - Дар'я</span>
+
+                                        <span class="class-price">₴250</span>
+
+                                        <p class="mt-3">Вік 9-16 років <br> Курс 6 місяців <br> <br>Стань розробником ігор з Roblox! Відкрий для себе основи програмування та дизайну ігор для молодих талантів</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                                <div class="class-thumb">
+                                    <img src="../static/images/class/artturi-jalli-g5_rxRjvKmg-unsplash-scaled.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Python</h3>
+
+                                        <span><strong>Викладач</strong> - Дар'я, Олег</span>
+
+                                        <span class="class-price">₴250</span>
+
+                                        <p class="mt-3">Вік 9-16 років <br>Курс 6 місяців <br><br> Освоюй мову програмування майбутнього! Базові навички, алгоритми та скрипти в Python</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="../static/images/class/NIK_2561.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Blender</h3>
+
+                                        <span><strong>Викладач</strong> Дар'я </span>
+
+                                        <span class="class-price">₴250</span>
+
+                                        <p class="mt-3">Вік 9-16 років <br>Курс 6 місяців <br> <br>Твори у тривимірному світі з Blender! Навчись 3D моделюванню та анімації, щоб реалізувати свої творчі ідеї</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="class-thumb">
+                                        <img src="../static/images/class/cardio-class.jpg" class="img-fluid" alt="Class">
+
+                                        <div class="class-info">
+                                            <h3 class="mb-1"> Розвиваючий</h3>
+
+                                            <span><strong>Викладач</strong> Дар'я </span>
+
+                                            <span class="class-price">₴250</span>
+
+                                            <p class="mt-3">Вік 7-9 років<br>Курс 6 місяців <br><br>Спеціальний курс для дітей від 7-ми років, який включає відразу декілька напрямків<br> <br> Code <br> Scratch <br> Kodu<br> Roblox Lite <br> Комп'ютерна грамотність</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="../static/images/class/pexels-pixabay-39369.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Дошкільна<br> освіта</h3>
+
+                                        <span><strong>Викладач</strong> Євгеній, Дар'я </span>
+
+                                        <span class="class-price">₴250</span>
+
+                                        <p class="mt-3">Вік 3-6 років <br> Курс 6 місяців <br><br>Підготуємо ваших дітей до школи</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="../static/images/class/pexels-anna-shvets-5257549.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Word Excel 30+</h3>
+
+                                        <span><strong>Викладач</strong> Дар'я </span>
+
+                                        <span class="class-price">₴250</span>
+
+                                        <p class="mt-3">Вік 30+ <br> 1міс-6міс <br> <br>Якщо вам важко працювати з комп'ютером, та користуватись офісними програмами, цей курс підійде для вас</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+     <!-- SCHEDULE -->
+     <section class="schedule section" id="schedule">
+               <div class="container">
+                    <div class="row">
+
+                            <div class="col-lg-12 col-12 text-center">
+                                <h6 data-aos="fade-up">Круті викладачі, крута програма, максимум 6 дітей в групі, а ще</h6>
+
+                                <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Граємо в настільні ігри, розвиваємо soft-skills та даруємо години ігор в xbox</h2>
+                                <h6 data-aos="fade-up"> Приклад розкладу групи з Roblox</h6>
+                             </div>
+
+                             <div class="col-lg-12 py-5 col-md-12 col-12">
+                                 <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
+
+                                     <thead class="thead-light">
+                                         <th><i class="fa fa-calendar"></i></th>
+                                         <th>Пн</th>
+                                         <th>Вт</th>
+                                         <th>Ср</th>
+                                         <th>Чт</th>
+                                         <th>Пт</th>
+                                         <th>Сб</th>
+                                         <th>Нд</th>
+                                     </thead>
+
+                                     <tbody>
+                                         <tr>
+                                            <td><small>11:00</small></td>
+                                            <td></td>
+                                             <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                             <td>
+                                                 <strong>Урок Roblox</strong>
+                                                <span>11:00 - 12:00</span>
+                                                 <strong>Настільні ігри</strong>
+                                                 <span>12:00 - 12:30</span>
+                                             </td>
+                                             <td>
+                                                 <strong>Xbox для Платона</strong>
+                                                <span>10:00 - 12:30</span>
+                                             </td>
+                                         </tr>
+
+                                         <tr>
+                                            <td><small>17:00</small></td>
+                                            <td></td>
+                                            <td><strong>Xbox для Юстини</strong>
+                                                <span>17:00 - 18:00</span></td>
+                                            <td>
+                                                <strong>Урок Roblox</strong>
+                                                <span>17:00 - 18:00</span>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td></td>
+                                            <td>
+                                            </td>
+                                         </tr>
+
+
+                                     </tbody>
+                                 </table>
+                             </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+     <!-- CONTACT -->
+     <section class="contact section" id="contact">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-5 col-md-6 col-12">
+                        <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Готові записатися, чи у вас залишились питання?</h2>
+
+                        <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+                            <input type="text" class="form-control" name="name" placeholder="Ім'я">
+
+                            <input type="tel" class="form-control" name="phone" placeholder="+380">
+
+                            <textarea class="form-control" rows="5" name="message" placeholder="Опишіть якої інформації вам не вистачило, ми заодно радо вас проінформуємо, чи вкажіть альтернативні способи зв'язку (telegram, viber, instagram) 😎"></textarea>
+
+                            <button type="submit" class="form-control" id="submit-button" name="submit">Відправити</button>
+                        </form>
+                    </div>
+
+                    <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+                        <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Ви можете <span>відвідати нашу школу</span></h2>
+
+                        <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Україна, м.Суми <br>пр-т М.Лушпи 41, (2 поверх) </p>
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+                        <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d628.8561450024641!2d34.828891067614116!3d50.91586248425086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41290216c867e9ad%3A0x8cc4b527ae9ffff6!2z0KLQoNCmINCQ0YLRgNC40YPQvCwg0L_RgNC-0YHQv9C10LrRgiDQnNC40YXQsNC50LvQsCDQm9GD0YjQv9C4LCA0MSwg0KHRg9C80YssINCh0YPQvNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0MDAwMA!5e0!3m2!1suk!2sua!4v1706001608505!5m2!1suk!2sua" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer class="site-footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-4 col-md-5">
+                        <p class="copyright-text">&copy; 2024 White Cloud Sumy
+                        
+                        <br>Design: <a href="https://www.tooplate.com">Nosachenko Oleh</a></p>
+                    </div>
+
+                    <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                        <p class="mr-4">
+                            <i class="fa fa-envelope-o mr-1"></i>
+                            <a href="#">whitecloudsumy@gmail.com</a>
+                        </p>
+
+                        <p><i class="fa fa-phone mr-1"></i> +380506966521</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h2 class="modal-title" id="membershipFormLabel">Запис на пробний урок</h2>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form action="" method="post" class="membership-form webform" role="form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="text" class="form-control" name="name" placeholder="Ім'я">
+
+                <input type="tel" class="form-control" name="phone" placeholder="+380">
+
+                <textarea class="form-control" rows="3" name="message" placeholder="Опишіть якої інформації вам не вистачило, ми заодно радо вас проінформуємо :)"></textarea>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Відправити</button>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="signup-agree">
+                    <label class="custom-control-label text-small text-muted" for="signup-agree">Даю згоду<a href="#"> на обробку персональних даних </a>
+                    </label>
+                </div>
+            </form>
+          </div>
+
+          <div class="modal-footer"></div>
+
+        </div>
+      </div>
+    </div>
+
+     <!-- SCRIPTS -->
+     <script src="../static/js/jquery.min.js"></script>
+     <script src="../static/js/bootstrap.min.js"></script>
+     <script src="../static/js/aos.js"></script>
+     <script src="../static/js/smoothscroll.js"></script>
+     <script src="../static/js/custom.js"></script>
+
+</body>
+</html>
